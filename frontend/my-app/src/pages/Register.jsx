@@ -45,7 +45,7 @@ function Register(){
                     value={password} onChange={(event) => {setPassword(event.target.value);}}/>
                 </div>  
                 <button onClick={save} type="submit">Register</button>
-                <p>Already Have An Account?</p>
+                <p>Already Have An Account? Log in.</p>
             </div>
         </div>
         </>
