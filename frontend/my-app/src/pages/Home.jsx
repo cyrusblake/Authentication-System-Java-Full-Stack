@@ -1,7 +1,9 @@
+import React from "react";
+
 function Home(){
     return(
         <>
-        <div>
+        <div className="contents">
             <h1>Home</h1>
         </div>
         </>

@@ -59,7 +59,7 @@ function Login(){
                     value={password} onChange={(event) => {setPassword(event.target.value);}}/>
                 </div>  
                 <button onClick={login} type="submit">Log in</button>
-                <p>Forgot Username or Password?</p>
+                <p>Don't Have An Account</p>
             </div>
         </div>
         </>

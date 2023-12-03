@@ -1,3 +1,4 @@
+import React from "react";
 import {useState} from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
@@ -44,7 +45,7 @@ function Register(){
                     value={password} onChange={(event) => {setPassword(event.target.value);}}/>
                 </div>  
                 <button onClick={save} type="submit">Register</button>
-                <p>Forgot Username or Password?</p>
+                <p>Already Have An Account?</p>
             </div>
         </div>
         </>
