@@ -33,7 +33,7 @@ function Register(){
             <div className="content">
                 <h1>Register</h1>
                 <div>
-                    <input className="input" placeholder="name" type="text"
+                    <input className="input" placeholder="Name" type="text"
                     value={name} onChange={(event) =>{setName(event.target.value);}}/>
                 </div>
                 <div>
@@ -44,8 +44,8 @@ function Register(){
                     <input className="input" placeholder="Password" type="password"
                     value={password} onChange={(event) => {setPassword(event.target.value);}}/>
                 </div>  
-                <button onClick={save} type="submit">Register</button>
-                <p>Already Have An Account? Log in.</p>
+                <button onClick={save} className="rb" type="submit">Register</button>
+                <p className="p">Already Have An Account? Log in.</p>
             </div>
         </div>
         </>

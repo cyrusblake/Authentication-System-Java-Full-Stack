@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom'
+import '../styles/Welcome.css'
 
 function Welcome(){
     return(
@@ -7,14 +8,13 @@ function Welcome(){
         <div className="contents">
             <h1>Welcome</h1>
             <div>
-                <Link to='/register'><button>Get started</button></Link>
-                 
+                <Link to='/register'><button className="wb">Get started</button></Link>
             </div>
             <div>
-                <Link to='/login'><button>Log in</button></Link>
+                <Link to='/login'><button className="wb">Log in</button></Link>
             </div>
-            <p>Terms & Conditions</p>
-            <p>Privacy Policy</p>
+            <p className="p">Terms & Conditions</p>
+            <p className="p">Privacy Policy</p>
         </div>
         </>
     )

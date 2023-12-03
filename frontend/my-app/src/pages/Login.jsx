@@ -58,8 +58,8 @@ function Login(){
                     <input className="input" placeholder="Password" type="password"
                     value={password} onChange={(event) => {setPassword(event.target.value);}}/>
                 </div>  
-                <button onClick={login} type="submit">Log in</button>
-                <p>Don't Have An Account? Register.</p>
+                <button onClick={login} className="lb" type="submit">Log in</button>
+                <p className="p">Don't Have An Account? Register.</p>
             </div>
         </div>
         </>
