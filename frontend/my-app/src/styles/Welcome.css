@@ -5,13 +5,25 @@
     text-align: center;
 }
 
-
-
-.wb{
+.tb{
     width: 300px;
     border-radius: 15px;
     color: white;
     background-color: black;
+    margin-bottom: 25px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 6px 5px 8px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.wb{
+    width: 300px;
+    border-radius: 15px;
+    color:black;
+    background-color:dimgrey;
     margin-bottom: 25px;
     height: 40px;
     font-size: 16px;

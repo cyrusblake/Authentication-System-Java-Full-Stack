@@ -8,7 +8,7 @@ function Welcome(){
         <div className="contents">
             <h1>Welcome</h1>
             <div>
-                <Link to='/register'><button className="wb">Get started</button></Link>
+                <Link to='/register'><button className="tb">Get started</button></Link>
             </div>
             <div>
                 <Link to='/login'><button className="wb">Log in</button></Link>
