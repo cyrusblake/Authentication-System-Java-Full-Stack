@@ -1,5 +1,5 @@
 import {useState} from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import axios from "axios";
 import "../styles/Login.css"
 
@@ -59,7 +59,10 @@ function Login(){
                     value={password} onChange={(event) => {setPassword(event.target.value);}}/>
                 </div>  
                 <button onClick={login} className="lb" type="submit">Log in</button>
-                <p className="p">Don't Have An Account? Register.</p>
+                <Link to="/register" className="plinks">
+                    <p className="p">Don't Have An Account? Register.</p>
+                </Link>
+                
             </div>
         </div>
         </>

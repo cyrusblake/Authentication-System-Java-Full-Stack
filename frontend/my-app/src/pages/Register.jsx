@@ -1,6 +1,6 @@
 import React from "react";
 import {useState} from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import axios from "axios";
 import "../styles/Register.css"
 
@@ -45,7 +45,10 @@ function Register(){
                     value={password} onChange={(event) => {setPassword(event.target.value);}}/>
                 </div>  
                 <button onClick={save} className="rb" type="submit">Register</button>
-                <p className="p">Already Have An Account? Log in.</p>
+                <Link to='/login' className="plinks">
+                    <p className="p">Already Have An Account? Log in.</p>
+                </Link>
+                
             </div>
         </div>
         </>
