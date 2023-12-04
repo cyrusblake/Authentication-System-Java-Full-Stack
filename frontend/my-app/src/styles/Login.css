@@ -6,10 +6,10 @@
 }
 
 .input{
-    width: 300px;
+    width: 350px;
     margin-bottom: 25px;
     border-radius: 15px;
-    height: 30px;
+    height: 35px;
     border-top:none;
     border-left: none;
     border-right: none;
@@ -21,7 +21,7 @@
 }
 
 .lb{
-    width: 300px;
+    width: 350px;
     border-radius: 15px;
     color: white;
     background-color: black;
@@ -32,6 +32,4 @@
     box-shadow: 6px 5px 8px rgba(0, 0, 0, 0.1);
 }
 
-.p{
-    font-size: 12px;
-}
+

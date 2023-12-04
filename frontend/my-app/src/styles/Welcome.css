@@ -6,7 +6,7 @@
 }
 
 .tb{
-    width: 300px;
+    width: 350px;
     border-radius: 15px;
     color: white;
     background-color: black;
@@ -20,7 +20,7 @@
 }
 
 .wb{
-    width: 300px;
+    width: 350px;
     border-radius: 15px;
     color:black;
     background-color:dimgrey;
@@ -31,6 +31,4 @@
     box-shadow: 6px 5px 8px rgba(0, 0, 0, 0.1);
 }
 
-.p{
-    font-size: 12px;
-}
+
