@@ -86,5 +86,16 @@ public class UserServiceImpl implements UserService{
 
     }
 
+    @Override
+    public Integer getCash(Integer id) {
+        Optional<User> optionalUser = userRepository.findById(id);
+
+        if (optionalUser.isPresent()){
+            User existingUser = optionalUser.get();
+            return existingUser.getCash();
+        }
+        return id;
+    }
+
 
 }
