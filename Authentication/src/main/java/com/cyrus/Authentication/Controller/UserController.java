@@ -52,6 +52,11 @@ public class UserController {
         return ResponseEntity.ok(currentLogin);
     }
 
+    @GetMapping("/cash/{id}")
+    public Integer getCash(@PathVariable("id") Integer id){
+        return userService.getCash(id);
+    }
+
 
 
 }
