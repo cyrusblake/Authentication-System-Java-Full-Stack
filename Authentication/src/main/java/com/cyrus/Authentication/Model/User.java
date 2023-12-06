@@ -18,6 +18,8 @@ public class User {
 
     private String password;
 
+    private Integer cash;
+
     public User() {}
 
     public User(Integer id, String name, String email, String password) {
@@ -59,6 +61,14 @@ public class User {
         this.password = password;
     }
 
+    public Integer getCash() {
+        return cash;
+    }
+
+    public void setCash(Integer cash) {
+        this.cash = cash;
+    }
+
 
     @Override
     public String toString() {
@@ -67,6 +77,7 @@ public class User {
                 ", name='" + name + '\'' +
                 ", email='" + email + '\'' +
                 ", password='" + password + '\'' +
+                ", cash='" + cash + '\'' +
                 '}';
     }
 }
