@@ -20,5 +20,7 @@ public interface UserService {
 
     public Login loginUser(Login login);
 
+    public Integer getCash(Integer id);
+
 
 }
