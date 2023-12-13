@@ -25,14 +25,14 @@
 }
 
 .lb{
-    width: 350px;
+    width: 365px;
     border-radius: 15px;
     color: white;
     background-color: black;
-    height: 40px;
+    height: 45px;
     font-size: 16px;
     margin-bottom: 10px;
-    padding: 5pxpx;
+    padding: 5px;
     cursor: pointer;
     box-shadow: 6px 5px 8px rgba(0, 0, 0, 0.1);
 }

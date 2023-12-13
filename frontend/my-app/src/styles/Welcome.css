@@ -9,13 +9,14 @@
 }
 
 .tb{
-    width: 350px;
+    width: 365px;
     border-radius: 15px;
     color: white;
     background-color: black;
     margin-bottom: 25px;
-    height: 40px;
+    height: 45px;
     font-size: 16px;
+    padding: 5px;
     cursor: pointer;
     box-shadow: 6px 5px 8px rgba(0, 0, 0, 0.1);
 
@@ -23,13 +24,14 @@
 }
 
 .wb{
-    width: 350px;
+    width: 365px;
     border-radius: 15px;
     color:black;
     background-color:dimgrey;
     margin-bottom: 25px;
-    height: 40px;
+    height: 45px;
     font-size: 16px;
+    padding: 5px;
     cursor: pointer;
     box-shadow: 6px 5px 8px rgba(0, 0, 0, 0.1);
 }
